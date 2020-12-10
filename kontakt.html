@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FilmLoveFon factory | Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu container">
+            <a href="index.html">Početna</a>
+            <a href="filmovi.html">Predlozi</a>
+            <a href="predloži.html">Predloži</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+    </header>
+    <div class="kontakt">
+        <div class="kontakt-university container">
+
+            <h2>Postanite naš član</h2>
+            <p>Unesi svoje lične podatke, i pridruži nam se. Mi ćemo se potruditi da te redovno obaveštavamo o novim filmovima i serijama, koje ćeš obožavati!</p>
+        </div>
+        <div class="kontakt-sadrzaj">
+            <div class="kontakt-info container">
+                <button class="radili">Ko je radio ovaj sajt? Klikni me!</button>
+                <p class="clanovi" style="display: none; font-size: 18px;">Ana<br>Marija <br>Mina</p>
+            </div>
+            <div class="kontakt-forma">
+                    <h1 style="text-align: center;">Želiš da postaneš naš član?</h1>
+                    <form id="kontaktForma">
+                            <div>
+                                <label for="kontaktMejl">E-MAIL</label>
+                                <input type="email" id="email" required placeholder="info@gmail.com">
+                            </div>
+                            <div>
+                                <label for="status">Godina</label>
+                                <select id="status">
+                                    <option> manje od 18</option>
+                                    <option>18 - 30</option>
+                                    <option>31-45</option>
+                                    <option>45+</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="poruka">Pismo preporuke</label>
+                                <textarea  id="poruka" rows="3"></textarea>
+                            </div>
+                            <div>
+                                <label for="antispam">Antispam</label>
+                              <div class="flex"><span id="broj1"></span> + 
+                                <span id="broj2"></span> = <input type="number" required id="antispam" />
+                                </div>
+                            </div>
+                            <button type="submit" class="btn">Pošalji</button>
+                        </form>
+            </div>
+        </div>
+    </div>
+    <footer class="container futer">
+        Copyright <span id="godina">2020.</span> MAM Fakultet organizacionih nauka
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/kontakt.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".clanovi").show(5000);
+            });
+        });
+    </script>
+</body>
+
+</html>

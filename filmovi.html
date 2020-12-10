@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FilmLoveFon factory | Vaši predlozi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flipclock.css">
+</head>
+
+<body class="about">
+    <header>
+        <nav class="menu container">
+            <a href="index.html">Početna</a>
+            <a href="filmovi.html">Predlozi</a>
+            <a href="predloži.html">Predloži</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+    
+<div class="row">
+    <div class="column">
+      <img src="./img/slika1manja.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./img/slika2manja.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./img/slika3manja.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="./img/slika4manja.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+  </div>
+  
+        
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+        
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="./img/slika1.jpeg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="./img/slika2.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="./img/slika3.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="./img/slika4.jpg" style="width:100%">
+            </div>
+        
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+        
+            
+            <div class="column">
+                <img class="demo" src="./img/slika1.jpeg" onclick="currentSlide(1)" alt="Nature">
+            </div>
+        
+            <div class="column">
+                <img class="demo" src="./img/slika2.jpg" onclick="currentSlide(2)" alt="Snow">
+            </div>
+        
+            <div class="column">
+                <img class="demo" src="./img/slika3.jpg" onclick="currentSlide(3)" alt="Mountains">
+            </div>
+        
+            <div class="column">
+                <img class="demo" src="./img/slika4.jpg" onclick="currentSlide(4)" alt="Lights">
+            </div>
+            </div>
+        </div>
+
+
+        <h1 style="margin-top: 70px; color: #c60021; text-align: center;" >Nešto o našim najboljim filmovima</h1>
+
+        <div class="prezentacija-filmova">
+            <div class="box">AVATAR (2009) je epski naučnofantastični film reditelja Džejmsa Kamerona. Avatar spada u jedne od najočekivanijih filmova prve decenije novog milenijuma. Glumci: Sem Vortington, Zoi Saldana, Sigorni Viver.</div>
+            <div class="box">THE MARTIAN (2015) Na samom početku filma se susrećemo sa ljudskom misijom na Marsu koja zbog oluje propada i dolazi do hitnog povlačenja. Režiser: Ridley Scott, Glumci: Matt Damon, Jessica Chastain.</div>
+            <div class="box">JOKER (2019) je originalna, samostalna priča koju do sada nismo videli na velikom ekranu. U njen centar je smešten Artur Flek, usamljeni čovek koji pokušava da pronađe svoj put i svoju sreću u neprijateljski nastrojenom Gotamu. Režiser: Tod Filips, Glumci: Joaquin Phoenix, Robert De Niro.</div>
+            <div class="box">FORREST GUMP (1994) Forest Gamp je čovek niske inteligencije. Bez obzira na to, on ima divan život i svedok je brojnih istorijskih momenata iz druge polovine 20. veka. Režiser: Robert Zemekis, Glumci: Tom Hanks, Robin Rajt, Gary Sinise. </div>
+            <div class="box">UPON A TIME IN HOLLYWOOD (2019) ljubavno pismo Los Anđelesu i šezdesetima, bajkovitu počast završnim trenucima zlatnog doba Holivuda. Režiser: Quentin Tarantino, Glumci: Leonardo DiCaprio, Brad Pitt.</div>
+            <div class="box">FIGHT CLUB (1999) Kancelarijski radnik koji pati od nesanice pokušava da promeni svoj život kada sa samouverenim, otkačenim poznanikom osniva borilački klub koji postaje i nešto više od toga. Režiser: David Fincher, Glumci: Brad Pitt, Edward Norton.</div>
+        </div>
+
+        <div class="kraj-prijava container">
+            <h3>Kraj semestra je za...</h3>
+            <div class="counter">
+    
+            </div>
+    
+        </div>
+
+    <footer class="container futer">
+        Copyright <span id="godina">2020.</span> MAM Fakultet organizacionih nauka
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/flipclock.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+    <script>
+        
+        function openModal() {
+          document.getElementById("myModal").style.display = "block";
+        }
+        
+        
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+</body>
+
+</html>
